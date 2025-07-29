@@ -10,14 +10,22 @@
     "module": "es2020",
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2020",
-    "typeRoots": ["node_modules/@types"],
-    "lib": ["es2018", "dom"],
+    "target": "ES2022",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
     "paths": {
       "ngx-useful-swiper": [
         "projects/ngx-useful-swiper/src/public-api.ts"
       ],
-      "ngx-useful-swiper/*": ["dist/ngx-useful-swiper/*"]
-    }
+      "ngx-useful-swiper/*": [
+        "dist/ngx-useful-swiper/*"
+      ]
+    },
+    "useDefineForClassFields": false
   }
 }
