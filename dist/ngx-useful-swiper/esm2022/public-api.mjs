@@ -1,0 +1,6 @@
+/*
+ * Public API Surface of ngx-useful-swiper
+ */
+export * from './lib/ngx-useful-swiper.module';
+export * from './lib/swiper/swiper.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC11c2VmdWwtc3dpcGVyL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyxnQ0FBZ0MsQ0FBQztBQUMvQyxjQUFjLCtCQUErQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBuZ3gtdXNlZnVsLXN3aXBlclxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL25neC11c2VmdWwtc3dpcGVyLm1vZHVsZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9zd2lwZXIvc3dpcGVyLmNvbXBvbmVudCc7XG4iXX0=

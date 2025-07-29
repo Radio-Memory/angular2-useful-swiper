@@ -1,0 +1,41 @@
+{
+  "name": "ngx-useful-swiper",
+  "version": "10.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaychase/angular2-useful-swiper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaychase/angular2-useful-swiper/issues"
+  },
+  "keywords": [
+    "Angular",
+    "swiper",
+    "slider",
+    "carousel"
+  ],
+  "author": "JayChase",
+  "license": "MIT",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=6.0.0 || >=7.0.0 || >=8.0.0 || >=9.0.0 || >=10.0.0",
+    "@angular/core": ">=6.0.0 || >=7.0.0 || >=8.0.0 || >=9.0.0  || >=10.0.0",
+    "swiper": "^6.0.0"
+  },
+  "module": "fesm2022/ngx-useful-swiper.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/ngx-useful-swiper.mjs",
+      "esm": "./esm2022/ngx-useful-swiper.mjs",
+      "default": "./fesm2022/ngx-useful-swiper.mjs"
+    }
+  },
+  "sideEffects": false
+}
